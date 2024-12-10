@@ -9,6 +9,7 @@ Students are expected to:
 Student Info
 =========================
 
-* Student Name: USTH ICT1 
-* Student ID: Not-Vietnamese
+* Student Name: Nguyen Thi Minh Nguyet
+* Student ID: 22BA13241
+
 
