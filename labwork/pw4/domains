@@ -1,0 +1,28 @@
+domains/student.py:
+class Student:
+    def __init__(self, student_id, name, dob):
+        self.student_id = student_id
+        self.name = name
+        self.dob = dob
+    def __str__(self):
+        return f"ID: {self.student_id}, Name: {self.name}, DOB: {self.dob}"
+
+
+domains/course.py:
+class Course:
+    def __init__(self, course_id, name, credits):
+        self.course_id = course_id
+        self.name = name
+        self.credits = credits
+    def __str__(self):
+        return f"Course ID: {self.course_id}, Name: {self.name}, Credits: {self.credits}"
+
+domains/mark.py 
+class Mark:
+    def __init__(self, student_id, course_id, mark):
+        self.student_id = student_id
+        self.course_id = course_id
+        self.mark = mark
+    def __str__(self):
+        return f"Student ID: {self.student_id}, Course ID: {self.course_id}, Mark: {self.mark}"
+
